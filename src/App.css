@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+.form-parent {
+  border: 0.5px solid rgb(224, 218, 218);
+  border-radius: 20px;
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+}
+.form-parent form div {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.form-parent label {
+  text-align: left;
+}
+@media screen and (max-width: 960px) {
+  .form-parent {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .form-parent {
+    width: 96%;
+  }
+}
